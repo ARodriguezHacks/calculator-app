@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  height: 550px;
+  border: 1px solid orange;
+  margin: 0 auto;
+}
+.outer {
+  display: flex;
+  height: inherit;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.row {
+ flex: 1 0 auto;
+}
+.row:nth-child(1) {
+  background-color: palevioletred;
+}
+.row:nth-child(2) {
+  background-color: lavender;
+}
+.row:nth-child(3) {
+  background-color: rgb(50, 111, 190);
+}
+.row:nth-child(4) {
+  background-color: rgb(199, 112, 216);
+}
+.row:nth-child(5) {
+  background-color: rgb(112, 216, 112);
+}
+.row:nth-child(6) {
+  background-color: rgb(190, 209, 23);
+}
