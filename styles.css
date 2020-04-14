@@ -15,7 +15,14 @@ body {
   height: 593px;
   margin: 0 auto;
 }
-.outer {
+.screen-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.output {
+  padding: 20px 5px;
+}
+.buttons-container {
   display: flex;
   height: inherit;
   flex-direction: column;
